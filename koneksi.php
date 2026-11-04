@@ -5,7 +5,7 @@ $user = getenv('DB_USER');
 $pass = getenv('DB_PASS');
 $db   = getenv('DB_NAME');
 $port = (int) (getenv('DB_PORT') ?: 3306);
-$ca = __DIR__ . '/aiven-ca.pem';
+$ca = __DIR__ . '/ca.pem';
 
 // URL website Vercel
 define('BASE', '/');
